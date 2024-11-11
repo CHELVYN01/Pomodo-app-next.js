@@ -14,8 +14,8 @@ export default {
         stroke: "var(--border-input)",
       },
       fontFamily: {
-        text: "var(--font-poppins)",
-        title: "var(--font-khand)",
+        text: ["var(--font-poppins)"],
+        title: ["var(--font-khand)"],
       },
     },
   },

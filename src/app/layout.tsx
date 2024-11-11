@@ -3,13 +3,13 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Khand, Poppins } from "next/font/google";
 
-export const khand = Khand({
+const khand = Khand({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-khand",
 });
 
-export const poppins = Poppins({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-poppins",
@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${khand.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased ${khand.variable} serif ${poppins.variable} sans-serif `}
       >
         {children}
       </body>
