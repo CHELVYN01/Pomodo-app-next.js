@@ -2,7 +2,7 @@ export default function Clock() {
   return (
     <>
       <div>
-        <h1>ini component clock</h1>
+        <h1></h1>
       </div>
     </>
   );

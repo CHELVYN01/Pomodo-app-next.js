@@ -8,6 +8,7 @@
   --foreground: #171717;
   --tulis: "Poppins", sans-serif;
   --judul: "Khand", serif;
+  --border-input: #ab6262;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,20 +16,11 @@
     --background: #030c23;
     --text-color: #ededed;
     --foreground: #212642;
-    --tulis: "Poppins", sans-serif;
-    --judul: "Khand", serif;
+    --border-input: 1px solid #ab6262;
   }
 }
 
 body {
   color: var(--text-color);
   background: var(--background);
-}
-
-.font-judul {
-  font-family: var(--font-judul);
-}
-
-.font-tulis {
-  font-family: var(--font-tulis);
 }

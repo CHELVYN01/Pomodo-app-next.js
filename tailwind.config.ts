@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        stroke: "var(--border-input)",
+      },
+      fontFamily: {
+        text: "var(--font-poppins)",
+        title: "var(--font-khand)",
       },
     },
   },
