@@ -5,7 +5,7 @@ import Task from "@/components/Task/page";
 export default function Home() {
   return (
     <>
-      <div className="bg-blue-900 flex">
+      <div className=" flex">
         <div>
           <Clock />
           <Musics />
