@@ -2,7 +2,7 @@
   "posts": [
     { "id": "1", "text": "Masak" },
     { "id": "2", "text": "membuakt makan" },
-    { "id": "2", "text": "membuakt minum" },
-    { "id": "2", "text": "membuakt mandi" }
+    { "id": "3", "text": "membuakt minum" },
+    { "id": "4", "text": "membuakt mandi" }
   ]
 }
